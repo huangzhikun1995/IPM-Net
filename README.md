@@ -6,7 +6,7 @@
 
   <p align="center">
     Zhikun Huang</a> •
-    <a href="Zhedong Zheng(https://dblp.uni-trier.de/pers/hd/z/Zheng:Zhedong">Zhedong Zheng</a> •
+    <a href="https://dblp.uni-trier.de/pers/hd/z/Zheng:Zhedong">Zhedong Zheng</a> •
     <a href="https://dblp.uni-trier.de/pers/hd/y/Yan:Chenggang_Clarence">Chenggang Yan </a> •
     <a href="https://dblp.uni-trier.de/pers/hd/x/Xie:Hongtao">Hongtao Xie</a> •
   <p align="center">
