@@ -45,9 +45,9 @@ In addition, if you collect some makeup and non-mekeup image from the internet t
 
 2. Start training, and you can use `tensorboard` to visualize your loss log.
 
-   ```
-   python train.py --config config/***.yaml
-   ```
+```
+python train.py --config config/***.yaml
+```
 
 ### Testing
 To test the model, you will need to have a CUDA capable GPU, PyTorch, cuda/cuDNN  drivers, tensorboardX and pyyaml installed. 
