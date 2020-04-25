@@ -19,7 +19,7 @@
 
 ![](README.assets/results.jpg#pic_center)
 
-<img src="README.assets/controlable.jpg#pic_center" style="zoom: 25%;" />
+<img src="README.assets/controlable.jpg#pic_center" style="zoom: 20%;" />
 
 ### IPM-Net
 
