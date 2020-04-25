@@ -24,7 +24,7 @@
 
 ### IPM-Net
 
-> **Real-World Automatic Makeup via Identity Preservation Makeup Net**<br>
+> **[Real-World Automatic Makeup via Identity Preservation Makeup Net](https://github.com/huangzhikun1995/IPM-Net/blob/master/Real_World_Automatic_Makeup_via_Identity_Preservation_Makeup_Net.pdf)**<br>
 > Zhikun Huang, Zhedong Zheng, Chenggang Yan, Hongtao Xie, Yaoqi Sun, 
 Jianzhong Wang, Jiyong Zhang<br>
 >
