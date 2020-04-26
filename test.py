@@ -3,6 +3,7 @@ from __future__ import print_function
 from utils import get_config, pytorch03_to_pytorch04
 from trainer import IPMNet_Trainer 
 from torch.autograd import Variable
+import argparse
 import torchvision.utils as vutils
 import sys
 import torch
