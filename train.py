@@ -2,7 +2,7 @@
 from utils import get_all_data_loaders, prepare_sub_folder, write_html, write_loss, get_config, write_2images, Timer, randomflip, randomcrop
 import argparse
 from torch.autograd import Variable
-from trainer import IPMNet_Trainer #, UNIT_Trainer
+from trainer import IPMNet_Trainer 
 import torch.backends.cudnn as cudnn
 import torch
 import numpy.random as random
@@ -16,7 +16,7 @@ import tensorboardX
 import shutil
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--config', type=str, default='configs/10_28_2.yaml', help='Path to the config file.')
+parser.add_argument('--config', type=str, default='configs/config.yaml', help='Path to the config file.')
 parser.add_argument('--output_path', type=str, default='.', help="outputs path")
 parser.add_argument("--resume", action="store_true")
 parser.add_argument('--trainer', type=str, default='IPMNet')
