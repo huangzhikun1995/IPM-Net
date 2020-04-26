@@ -34,12 +34,12 @@ parser.add_argument('--trainer', type=str, default='IPMNet')
 opts = parser.parse_args()
 
 
-opts.input = '~/IPM-Net/dataset/makeup/testB/'
-opts.input_mask ='~/IPM-Net/dataset/makeup/testB_mask/'
-opts.input_texture ='~/IPM-Net/dataset/makeup/testB_highcontract/'
-opts.style = '~/IPM-Net/dataset/makeup/testA/'
-opts.style_mask ='~/IPM-Net/dataset/makeup/testA_mask/'
-opts.style_texture ='~/IPM-Net/dataset/makeup/testA_highcontract/'
+opts.input = '/home/username/IPM-Net/datasets/makeup/testB/'
+opts.input_mask ='/home/username/IPM-Net/datasets/makeup/testB_mask/'
+opts.input_texture ='/home/username/IPM-Net/datasets/makeup/testB_highcontract/'
+opts.style = '/home/username/IPM-Net/datasets/makeup/testA/'
+opts.style_mask ='/home/username/IPM-Net/datasets/makeup/testA_mask/'
+opts.style_texture ='/home/username/IPM-Net/datasets/makeup/testA_highcontract/'
 
 if not os.path.exists(opts.output_path):
     os.makedirs(opts.output_path)
