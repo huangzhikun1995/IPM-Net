@@ -52,7 +52,7 @@ python train.py --config config/***.yaml
 ### Testing
 To test the model, you will need to have a CUDA capable GPU, PyTorch, cuda/cuDNN  drivers, tensorboardX and pyyaml installed. 
 #### Download the trained model
-We provide our trained model. You can download it from [Google Drive] (or [Baidu Disk] password: rqvf). You can download and move it to the `outputs` folder.
+We provide our trained model. You can download it from [Google Drive](https://drive.google.com/drive/folders/1dTmg0SWGkqu2NnzWgcI4BlxIy476HuL1?usp=sharing) (or [Baidu Disk](https://pan.baidu.com/s/1_S1F9D7YdamlMvFg7wTRDg) password: yuxv). You can download and move it to the `outputs` folder.
 #### Testing the model
 You may test our trained model use `test.py` and the few images in the `dataset` folder. Or you can collect some makeup images and non-makeup images from the Internet to test our model. 
 
