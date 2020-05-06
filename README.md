@@ -36,8 +36,7 @@ We train and test our model on the widely-used [Makeup Transfer dataset](http://
 
 ### Training
 You can train your own model after downloading the [dataset](http://liusi-group.com/projects/BeautyGAN) and preprocessing the data.
-Besides, we deploy ResNet50 model trained on VggFace2. You should also download this model named [resnet50_ft_weight.pkl]
-(https://drive.google.com/file/d/1A94PAAnwk6L7hXdBXLFosB_s0SzEhAFU/view). 
+Besides, we deploy ResNet50 model trained on VggFace2. You should also download this model named [resnet50_ft_weight.pkl](https://drive.google.com/file/d/1A94PAAnwk6L7hXdBXLFosB_s0SzEhAFU/view). 
 #### Images processing
 To train your own model, you must processing the dataset first. You can use MATLAB and the code we provide in the `preprocessing` folder to preprocess the data. `highcontract_texture.m` provides a  differential filter to extract the texture of the face in the picture which is same to our model , and `sobel_texture.m` provides a Sobel operator to extract the texture. 
 In addition, if you collect some makeup and non-mekeup image from the internet to train a model or test our model, you have to [parse the faces](https://github.com/switchablenorms/CelebAMask-HQ/tree/master/face_parsing) in the new images before images preprocessing. 
