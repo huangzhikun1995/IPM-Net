@@ -31,7 +31,7 @@ display_size = config['display_size']
 config['vgg_model_path'] = opts.output_path
 
 # Setup model and data loader
-if opts.trainer == 'IMPNet':
+if opts.trainer == 'IPMNet':
     trainer = IPMNet_Trainer(config)
     trainer.cuda()
 
